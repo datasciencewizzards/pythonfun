@@ -30,7 +30,7 @@ class myclass():
     return 0
 
   def printGarbage(self):
-      print "Garbage"
+      print ("Garbage")
 
 myobj = myclass()
 print(bool(myobj))
