@@ -15,7 +15,7 @@ def my_function(child3, child2, child1):
     print("The youngest child is " + child3)
 
 
-my_function(child1="Emil", child2="Tobias", child3="Linus")
+my_function(child1="Email", child2="Tobias", child3="Linus")
 
 
 # If you do not know how many keyword arguments that will be passed
@@ -47,6 +47,23 @@ my_function("Brazil")
 def my_function(x):
     return 5 * x
 
+
+print(my_function(3))
+print(my_function(5))
+print(my_function(9))
+
+# List as arguement
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+# function with a return value
+def my_function(x):
+  return 5 * x
 
 print(my_function(3))
 print(my_function(5))
