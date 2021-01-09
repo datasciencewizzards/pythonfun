@@ -11,11 +11,11 @@ printname("World!!")
 
 def compare(x, y):
     if x > y:
-        print "x is greater than y"
+        print ("x is greater than y")
     elif x == y:
-        print "x and y are equal"
+        print ("x and y are equal")
     else:
-        print "y is greater than x"
+        print ("y is greater than x")
 
 
 # if else elseif

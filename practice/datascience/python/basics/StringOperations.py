@@ -7,7 +7,7 @@ print (x[1])
 # Looping String
 def printAllchars(x):
     for c in x:
-        print c
+        print (c)
 
 
 printAllchars("banana")
