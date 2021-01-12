@@ -38,4 +38,16 @@ cols = list(df.columns)
 df = df[cols[0:4] + [cols[-1]] + cols[4:12]]
 print("Dataframe after moving the Total in the middle\n" , df.head(5))
 
+# Saves the index too
 df.to_csv("modified.csv")
+
+# Saves the index too
+df.to_csv("modified.csv",index=False)
+
+# Saves the index too
+df.to_excel("modifiedexcel.xlsx",index=False)
+
+# Saves the index too
+df.to_csv("modified.txt",index=False, sep="\t")
+
+
